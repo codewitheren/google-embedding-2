@@ -1,0 +1,19 @@
+{
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9",
+    "@google/genai": "^0.3.0",
+    "chromadb": "^3.3.3",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
